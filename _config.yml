@@ -1,4 +1,4 @@
-remote_theme: coogie/oscailte
+remote_theme: benbalter/retlab
 
 title: Oscailte
 subtitle: A powerful, clean, and responsive Jekyll theme. 
@@ -14,9 +14,7 @@ url: "https://coog.ie"
 # Build settings
 show_excerpts: true
 plugins:
-  - jekyll-seo-tag
-  - jekyll-avatar
-  - jekyll-feed
+  - jekyll-remote-theme
 
 permalink: /blog/:year/:month/:day/:title/
 
