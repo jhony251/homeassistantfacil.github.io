@@ -1,1 +1,1 @@
-gem "oscailte"
+gem "jekyll-remote-theme"
