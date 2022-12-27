@@ -1,27 +1,32 @@
-remote_theme: coogie/oscailte
+title: Oscailte
+subtitle: A powerful, clean, and responsive Jekyll theme. 
+author: GitHub User
+email: your-email@example.com
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "oscailte"
+url: "https://coog.ie"
+
+# Build settings
+show_excerpts: true
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title/
+
 oscailte:
-  posts_url:
   google_analytics:
   social:
-    twitter: username
-    github: username
-    dribbble: username
-    facebook: username
-    flickr: username
-    instagram: username
-    linkedin: username
-    mastodon: https://instance.url/@username
-    pinterest: username
-    telegram: username
-    keybase: username
+    github: jekyll
+    twitter: coog_ie
     rss: rss
-  strings:
-    skip_to_main_content: "Skip to main content"
-    x_minute_read: "$x$ minute read"
-    hero_title: "Welcome to Oscailte!<br> A powerful, clean, and responsive Jekyll theme."
-    recent_posts: "Recent posts"
-    view_all: "View all"
-    read_full: "Read full"
-    disqus_enable_javascript: 'Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus</a>.'
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - index.md
+ - about.md
